@@ -50,7 +50,8 @@ mvn clean install
 You can run the simulation with:
 
 ```bash
-java -cp target/MatrixConcurrent-1.0-SNAPSHOT.jar org.game.Main
+mvn package
+java -cp target/game-app-1.0-SNAPSHOT.jar  org.game.Main
 ```
 
 The game will initialize the matrix, place the entities randomly, and start the concurrent simulation.
