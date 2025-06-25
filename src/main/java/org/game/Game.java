@@ -74,11 +74,11 @@ public class Game {
                 // Check for end conditions
                 if (hasWin() || isCaught() || !hasPathToPhone()) {
                     if (hasWin()) {
-                        System.out.println("A ha llegado a un teléfono. ¡A gana!");
+                        System.out.println("A has arrived to a Phone. ¡A wins!");
                     } else if (isCaught()) {
-                        System.out.println("B ha atrapado a A. ¡B gana!");
+                        System.out.println("B has caught A. ¡B wins!");
                     } else {
-                        System.out.println("A no tiene camino hacia ningún teléfono. Juego terminado.");
+                        System.out.println("A has no path to a Phone. Game Over.");
                     }
                     break;
                 }
